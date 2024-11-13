@@ -1,0 +1,222 @@
+@media screen and (max-width: 600px){
+    .sect{
+        height: 130vh;
+    }
+    .box-2 p{
+        display: none;
+    }
+    header{
+        padding: 10px 30px;
+        margin-left: -10px;
+    }
+    .star img{
+        display: none;
+    }
+    .star p{
+        display: none;
+    }
+    .star-0{
+        display: flex;
+        margin-top: -150px;
+        margin-left: -170px;
+    }
+    .star-0 b{
+        font-size: 82px;
+        width: 40%;
+       
+    }
+    .star-0 b span{
+      position: absolute;
+    margin-top: -20px;
+    }
+    .star-0 button{
+        margin-top: -22px;
+        width:410px;
+    }
+    .title{
+        display: none;
+    }
+    .tit{
+        display: flex;
+        flex-direction: column;
+      right: 100px;
+      
+       
+    }
+    .tit_here{
+        flex-direction: column;
+        width: 70vw;
+        position: absolute;
+      top: -50vh;
+    }
+    .here{
+       padding: 0px 200px;
+      left: 100px;
+        
+       margin-left: -100px;
+    }
+    .here b{
+        width:100vw;
+    }
+    .here p{
+        width:30vw;
+    }
+    .link{
+      
+       right: 50px;
+    }
+   .indons{
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -20px;
+    margin-top: 40px;
+   }
+   .indons img{
+    width: 480px;
+    margin-bottom: 80px;
+   }
+   
+  .opo{
+    flex-direction: column;
+  }
+  
+  .idn-1{
+    margin-left: 100px;
+   margin-top: 20px;
+  }
+  .section-3 b{
+    width: 250px;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  .un-1{
+    display: none;
+  }
+  .secr{
+    display: block;
+  }
+  .number b{
+    width: 200px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .num{
+    flex-direction: column;
+  }
+  .seen b{
+    width: 250px;
+  }
+  .seen p{
+    width: 250px;
+  }
+  .seen button{
+    width: 250px;
+  }
+  .coun-1{
+    top: 200px;
+    right: 90px;
+  }
+  .city{
+    flex-direction: column;
+    margin-left: -0px;
+    position: relative;
+  }
+  .city-0 p{
+    width: 80vw;
+  }
+  .Gallery p{
+    width: 300px;
+    text-align: center;
+  }
+.gettimg{
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gett{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.bok{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+.book{
+    width: 40px;
+}
+.there{
+    flex-direction: column;
+}
+.bok-0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+ .ter-0 p{
+    width: 70vw;
+ } 
+ footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }  
+ .foter{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .foter-1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .boxx{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .boxx img{
+    width: 60px;
+    height: 60px;
+ }
+ .foter-0{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+ }
+ .foter-00{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .lk{
+    display: flex;
+    gap: 102px;
+    margin-top: 20px;
+ }
+ .menu-mobile{
+  display: block;
+  margin-top: -40px;
+  
+}
+.box-3 img{
+  display: none;
+}
+.blogg{
+  display: block;
+  cursor: pointer;
+}
+
+}
+
