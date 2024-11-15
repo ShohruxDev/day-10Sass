@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -28,6 +33,7 @@ body {
 }
 .section-1 header {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
@@ -68,10 +74,10 @@ body {
   display: flex;
   gap: 62px;
 }
-.box-1 .box-2 p {
+.box-1 .box-2 a {
   text-transform: uppercase;
   font-family: DM Sans;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 23.44px;
   text-align: left;
@@ -79,6 +85,8 @@ body {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.4s;
 }
 .box-1 .box-3 {
   display: flex;
@@ -335,20 +343,21 @@ body {
   height: 20vh;
 }
 
-.card {
+.cardd {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   margin-top: 15px;
   margin-bottom: 51vh;
 }
-.card .card-0 {
+.cardd .card-0 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: #85A3B2;
 }
-.card .card-1 {
+.cardd .card-1 {
   width: 30px;
   height: 10px;
   border-radius: 30px;
@@ -554,7 +563,7 @@ body {
   width: 40vw;
   height: 50vh;
   margin-left: 15px;
-  background-color: #85A3B2;
+  
   justify-content: start;
   align-content: start;
   gap: 13px;
@@ -574,6 +583,11 @@ body {
   background-size: cover;
   grid-column: 1/3;
   grid-row: 1/7;
+}
+.gall:nth-child(1):hover {
+  width: 120%;
+  height: 120%;
+  transition: all0;
 }
 
 .gall:nth-child(2) {
@@ -718,6 +732,7 @@ footer .boxx h2 span {
   color: #980a21;
 }
 footer .foter {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -761,19 +776,23 @@ footer .foter {
 }
 
 .menu-mobile {
-  display: block;
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: white;
   transform: translateY(-100vh);
-  transition: all 0.4s ease-in-out;
+  background-color: white;
+  transition: all 0.4s ease;
 }
 
-.menu-mobile.active {
+.menu-mobile .active {
   transform: translateY(0);
+}
+
+.bloggg {
+  display: none;
 }
 
 .scroll-to-top {
@@ -795,4 +814,21 @@ footer .foter {
 
 .show {
   transform: translateX(0);
+}
+
+.homee {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  margin-top: -90px;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #DD2242;
+}
+.homee img {
+  width: 50%;
+  height: 50%;
 }/*# sourceMappingURL=main.css.map */

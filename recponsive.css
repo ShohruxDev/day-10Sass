@@ -2,7 +2,8 @@
     .sect{
         height: 130vh;
     }
-    .box-2 p{
+   
+    .box-2 a{
         display: none;
     }
     header{
@@ -47,7 +48,7 @@
         flex-direction: column;
         width: 70vw;
         position: absolute;
-      top: -50vh;
+      top: -60vh;
     }
     .here{
        padding: 0px 200px;
@@ -128,12 +129,14 @@
   .Gallery p{
     width: 300px;
     text-align: center;
+    margin-left: -50px;
   }
 .gettimg{
-    width: 80vw;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: -20px;
 }
 .gett{
     display: flex;
@@ -175,13 +178,14 @@
     align-items: center;
     justify-content: center;
  }
+ 
  .foter-1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
  }
  .boxx{
-    flex-direction: column;
+    
     align-items: center;
     justify-content: center;
  }
@@ -207,15 +211,77 @@
  }
  .menu-mobile{
   display: block;
-  margin-top: -40px;
-  
+  position: absolute;
+z-index: 4;
+  top: 0;
+  right: 250px;
+  left: -25px;
+  width: 120vw;
+  margin-top: -20px;
+  height: 105vh;
+  transform: translateX(-100vh);
+  background-color:rgb(89, 89, 88);
+ 
+  transition: all 0.4s ease;
+
 }
+
+.section-1{
+  height: 140vh;
+ }
+.container{
+  max-width: 500px;
+}
+.her{
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  gap: 20px;
+  text-decoration: none;
+}
+.her a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+}
+.close{
+  cursor: pointer;
+}
+.menu-mobile__header{
+ display: flex;
+ text-decoration: none;
+ align-items: center;
+ justify-content: space-around;
+ margin-left: -120px;
+ gap: 220px;
+ 
+ padding: 20px 100px;
+ 
+ margin-bottom: 200px;
+}
+  
+
+.bloggg{
+  display: block;
+}
+.menu-mobile.active{
+transform: translateX(0);
+  
+ }
+
 .box-3 img{
   display: none;
 }
-.blogg{
+.menu{
   display: block;
   cursor: pointer;
+}
+.homee{
+  right: 42%;
+  margin-top: -500px;
+}
+.gallery{
+  margin-left: -50px;
 }
 
 }
